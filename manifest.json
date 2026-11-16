@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "mrzwets.bch-calendar",
+  "name": "BCH Calendar",
+  "version": "0.4.0",
+  "author": "mrzwets",
+  "description": "BCH calendar: 1-minute blocks upgrade, halving countdown, BCH birthday, whitepaper day and more",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "BCH Calendar",
+    "description": "BCH calendar: 1-minute blocks upgrade, halving countdown, BCH birthday, whitepaper day and more",
+    "category": "Info",
+    "allowMultiple": true,
+    "defaultSection": "right"
+  }
+}
